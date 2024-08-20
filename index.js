@@ -36,4 +36,4 @@ function routemeup (routes, { method, url }) {
   }
 }
 
-export default routemeup;
+module.exports = { routemeup };
