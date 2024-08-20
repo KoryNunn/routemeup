@@ -1,4 +1,4 @@
-import { match } from 'path-to-regexp';
+const { match } = require('path-to-regexp');
 
 function routemeup (routes, { method, url }) {
   const parsedUrl = new URL(url, 'http://example.com');
